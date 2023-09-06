@@ -92,7 +92,23 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(Images/pic-1.png);
+    
     background-position: center;
     background-size: cover;
+}
+
+.card1{
+    background-image: url(Images/pic-1.png);
+}
+
+.card2{
+    background-image: url(Images/pic-2.png);
+}
+
+.card3{
+    background-image: url(Images/pic-3.png);
+}
+
+.card4{
+    background-image: url(Images/pic-4.png);
 }
