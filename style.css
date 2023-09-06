@@ -92,9 +92,9 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    
     background-position: center;
     background-size: cover;
+    transition: transform 0.5s;
 }
 
 .card1{
@@ -111,4 +111,8 @@ button{
 
 .card4{
     background-image: url(Images/pic-4.png);
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }
